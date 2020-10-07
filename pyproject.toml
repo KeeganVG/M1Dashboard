@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "m1dashboard"
+version = "0.1.0"
+description = "A dashboard using live information from a M1 ( MYSQL ) Databse"
+authors = ["Keegan <Keegan.vangemeren@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+m1connector = "^0.1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
